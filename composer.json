@@ -1,0 +1,32 @@
+{
+    "name": "cwethm/cakephp5-language-dictionary",
+    "description": "A CakePHP 5 plugin providing a language dictionary with multi-language word and translation management.",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cwethm"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "cakephp/cakephp": "^5.0"
+    },
+    "require-dev": {
+        "cakephp/migrations": "^4.0",
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LanguageDictionary\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LanguageDictionary\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "installer-name": "LanguageDictionary"
+    }
+}
